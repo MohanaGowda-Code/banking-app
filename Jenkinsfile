@@ -10,7 +10,7 @@ pipeline {
         SONARQUBE = 'SonarQubeServer'
         SONAR_PROJECT_KEY = 'banking-app'
         SONAR_HOST_URL = 'http://localhost:9000'
-        SONAR_TOKEN = credentials('squ_d730aef028fc6cbbce0347b679eeffc82d010dc5')
+        SONAR_TOKEN = credentials('sonar-token')
     }
 
     stages {
